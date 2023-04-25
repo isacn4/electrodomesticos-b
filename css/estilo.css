@@ -1,6 +1,5 @@
 /*letra*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap");
 /*reset*/
 * {
   padding: 0;
@@ -8,12 +7,25 @@
   font-family: "Montserrat", sans-serif;
 }
 
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-body{
-    background-color: #FDFEEB;
+body {
+  background-color: #FDFEEB;
+}
+
+/*encabezado*/
+.encabezado__box--white {
+  width: 98%;
+  text-align: center;
+  background-color: white;
+  padding: 2px;
+  margin: 10px 2px;
+  border: solid black 0.6px;
+}
+.encabezado__box--white p {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
