@@ -1,0 +1,51 @@
+.maindiv-a{
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
+.maindiv-b{
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.maindiv-c{
+    width: 20%;
+    height: 90%;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main-texto{
+    margin: 10px;
+    font-size: 2rem;
+}
+.maindiv-c{
+    figcaption{
+    color: forestgreen;
+    margin: 2px 0px;
+    font-size: 1.2rem;
+}
+        p{
+        margin: 2px 0px;
+        font-size: 1.2rem;
+}
+}
+.producto-imagen{
+    width: 40%;
+    height: 80px;
+    margin: 6px 0px;
+    border: solid black 0.6px;
+    /*justify-content: center;*/
+}
