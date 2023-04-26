@@ -1,0 +1,32 @@
+/*aside*/
+.aside-contenedor{
+    width: 94%;
+    height: 94%;
+    margin: 10px 2px;
+    border: solid black 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+}
+.asidediv-a{
+    width: 60%;
+    margin: 20px 0px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.asidediv-b{
+    margin: 20px 10px;
+}
+.asidediv-b img{
+    width: 20px;
+    height: 20px;
+    margin: 6px 0px;
+}
+.asidediv-b p{
+    font-size: 1rem;
+    margin: 2px 0px;
+}
