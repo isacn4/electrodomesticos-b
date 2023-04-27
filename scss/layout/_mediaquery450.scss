@@ -31,9 +31,10 @@ h2{
     margin: 6px 2px;
     justify-content: center;
     border: solid black 0.6px;
-}
-.encabezado__box--white p{
+
+    p{
     font-size: 1rem;
+}
 }
 
 /*cel nav*/
@@ -42,11 +43,15 @@ h2{
     height: 80px;
     margin: 6px 2px;
     padding: 2px 2px;
-}
-.botonera a img{
+
+    a{ 
+        img{
         width: 120px;
         margin: 2px 4px;
 }
+}
+}
+
 .botonera ul{
     /*display: inline-block;*/
     margin: 2px 12px;
@@ -56,16 +61,17 @@ h2{
     padding: 6px;
     /*flex-wrap: wrap;*/
     flex-direction: column;
-}
 
-.botonera ul li{
-        margin-right: 2px;
-        display: block;
-}
 
-.botonera ul li a{
-    font-size: 1rem;
-    margin: 2px 6px;
+    li{
+    margin-right: 2px;
+    display: block;
+
+        a{
+        font-size: 1rem;
+        margin: 2px 6px;
+}
+}
 }
 
 /*header foto cel*/
@@ -120,18 +126,21 @@ h2{
     font-size: 1.2rem;
     margin: 2px;
 }
-.productosdestacadosdiv-b img{
+.productosdestacadosdiv-b{ 
+    img{
     width: 70%;
     height: 80px;
     margin: 2px 0px;
+
+        figcaption{
+        font-size: 1rem;
+        margin: 2px 0px;
+
+            p{
+            font-size: 1rem;
+            margin: 2px 0px;
 }
-.productosdestacadosdiv-b figcaption{
-    font-size: 1rem;
-    margin: 2px 0px;
 }
-.productosdestacadosdiv-b p{
-    font-size: 1rem;
-    margin: 2px 0px;
 }
 
 /*cel productos novedades*/
@@ -191,10 +200,11 @@ overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.asidediv-b img{
+
+    img{
     width: 20px;
     height: 20px;
+}
 }
 
 /*footer*/
@@ -255,14 +265,15 @@ overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.filtros-div h2{
+    
+    h2{
     margin: 2px 0px;
     font-size: 1.2rem;
 }
-.filtros-div form{
-    margin: 2px 0px;
-    font-size: 1rem;
+        form{
+        margin: 2px 0px;
+        font-size: 1rem;
+}
 }
 
 /*aside*/
@@ -293,10 +304,11 @@ overflow: auto;
     padding: 2px;
     display: flex;
     flex-direction: column;
-}
-.asidediv-b img{
+
+    img{
     width: 20px;
     height: 20px;
+}
 }
 
 .main-contenedor{

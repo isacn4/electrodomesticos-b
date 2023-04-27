@@ -1,0 +1,383 @@
+/*--------tablet--------*/
+@media only screen and (min-width:451px) and (max-width:980px){
+
+h1{
+    font-size: 1.6rem;
+}
+h2{
+    font-size: 1.2rem;
+}
+
+.contenedor{
+        width: 100%;
+        padding: 2px;
+        margin: 0px 6px;
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-template-rows: 6, auto;
+        grid-template-areas:
+        "telyemail telyemail"
+        "nav nav"
+        "header header"
+        "productos productos"
+        "aside aside"
+        "footer footer";
+    }
+
+/*tablet encabezado*/
+.encabezado__box--white{
+    width: 96%;
+    margin: 6px 4px;
+    justify-content: center;
+    border: solid black 0.6px;
+}
+
+/*nav*/
+
+.botonera{
+    width: 96%;
+    height: 120px;
+    margin: 6px 4px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+
+    a{      
+        
+        img{
+        width: 200px;
+        margin: 2px 6px;
+}
+}
+}
+
+.botonera ul{
+    /*display: inline-block;*/
+    margin: 2px 6px;
+    width: 30%;
+    display: flex;
+    /*border: solid black 0.6px;*/
+    padding: 2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botonera ul{
+    
+    li{
+    margin: 2px;
+    /*display: block;*/
+
+
+        a{
+        font-size: 1.2rem;
+        /*margin: 2px 4px;*/
+}
+}
+}
+
+.divnav{
+    margin: 2px;
+}
+.encabezado__imagen--fluid{
+     width: 96%;
+     margin: 6px 4px;
+}
+/*tablet productos*/
+/*tablet productos destacados*/
+.productosdestacados{
+    width: 96%;
+    margin: 6px 4px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.productosdestacados-contenedor{
+    width: 90%;
+    height: 280px;
+    /*border: solid grey 1px;*/
+    margin: 6px 4px;
+    padding: 2px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textodestacados{
+    font-size: 1.6rem;
+    margin: 2px;
+
+}
+.productosdestacadosdiv-a{
+        flex-direction: row;
+        width: 80%;
+        height: 220px;
+        padding: 2px 8px;
+        margin: 2px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+
+.productosdestacadosdiv-b{
+   width: 30%;
+   height: 180px;
+   margin: 6px 10px;
+   border: solid black 0.6px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   text-align: center;
+
+    img{
+    margin: 2px 6px;
+    width: 60%;
+    height: 100px;
+
+        figcaption{
+        font-size: 1.2rem;
+        margin: 2px 0px;
+            p{
+            font-size: 1.2rem;
+            margin: 2px 0px;
+}
+}
+}
+
+.novedades-contenedor{
+width: 90%;
+height: 240px;
+padding: 10px 10px;
+margin: 6px 4px;
+border: solid black 0.6px;
+overflow: auto;
+}
+
+.novedades-titulo{
+    font-size: 1.6rem;
+    color: black;
+    margin: 0px 10px;
+}
+.novedades-texto{
+    font-size: 1.2rem;
+    color: black;
+    margin: 6px 0px;
+}
+
+.novedades-contenedor img{
+    width: 20%;
+    height: 160px;
+    margin: 6px 0px;
+}
+.novedades-texto{
+    font-size: 1.2rem;
+    margin: 2px 0px;
+}
+
+/*aside*/
+.aside-contenedor{
+    width: 96%;
+    height: 160px;
+    margin: 6px 4px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.asidediv-a{
+    width: 60%;
+    height: 80px;
+    margin: 2px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.asidediv-b{
+    width: 20%;
+    margin: 20%;
+    margin: 6px;
+    border: solid black 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img{
+    width: 40px;
+    height: 40px;
+}
+}
+
+.pie{
+    width: 96%;
+    height: 120px;
+    margin: 6px 4px;
+    padding: 6px;
+}
+
+.pie__titulo--md{
+    font-size: 1.6rem;
+}
+.pie__icon--sm{
+    width: 6%;
+    margin: 8px;
+    justify-content: space-around;
+}
+
+.contenedorb{
+    width: 100%;
+    margin: 0px 6px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6, auto;
+    grid-template-areas:
+    "telyemail telyemail"
+    "nav nav"
+    "filtros filtros"
+    "productos productos"
+    "aside aside"
+    "footer footer";
+    }
+
+.filtros-contenedor{
+    width: 96%;
+    height: 160px;
+    color: black;
+    padding: 6px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6px 4px;
+    align-items: center;
+
+}
+
+.main-contenedor{
+    width: 96%;
+    padding: 6px;
+    border: solid black 0.6px;
+    margin: 6px 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.maindiv-a{
+    width: 80%;
+    height: 70%;
+    margin: 2px;
+    border: solid black 0.6px;
+    padding: 2px;
+}
+
+.maindiv-b{
+    width: 80%;
+    height: 80%;
+    margin: 6px;
+    border: solid black 0.6px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.maindiv-c{
+    width: 40%;
+    height: 60%;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    img{
+    width: 30%;
+    height: 80px;
+    margin: 10px 60px;
+    border: solid black 0.6px;
+    justify-content: center;
+}
+}
+
+.contenedorc{
+        width: 100%;
+        padding: 2px;
+        margin: 0px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4, auto;
+        grid-template-areas:
+        "telyemail"
+        "nav"
+        "formulario"
+        "footer";
+}
+
+.bgClaro{
+    width: 96%;
+    background-color: white;
+    padding: 4px;
+    margin: 6px 4px;
+    display: flex;
+    flex-direction: column;
+}
+.contacto{
+    width: 80%;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;
+    align-content: flex-start;*/
+}
+
+.formulariodiv-a{
+    width: 80%;
+    border: solid 0.6px black;
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: column;
+
+    /*justify-content: flex-start;*/
+}
+
+.formulariodiv-b{
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: row;
+}
+.formulariotexto{
+    margin: 6px 6px;
+}
+.formulariodiv-b{ 
+    label{
+    font-size: 1.2rem;
+    margin: 4px 2px;
+
+}
+    input{
+    margin: 4px 2px;
+}
+}
+.formulario-texto{
+    font-size: 1.2rem;
+    margin: 4px 2px;
+}
+.formulario-boton{
+    width: 20%;
+    margin: 4px 2px;
+}
+}
