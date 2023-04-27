@@ -109,7 +109,7 @@ h2 {
   width: 100%;
   height: 100%;
   margin: 10px 2px;
-  border: solid black 1px;
+  /*border: $borde-a;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,7 +131,7 @@ h2 {
   width: 80%;
   height: 210px;
   margin: 10px;
-  border: solid black 1px;
+  border: none;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -231,7 +231,7 @@ h2 {
   padding: 10px;
   font-size: 1.2rem;
   line-height: 1.6rem;
-  border: solid black 1px;
+  /*border: $borde-a;*/
   display: flex;
   /*justify-content: center;*/
   flex-direction: column;
@@ -242,7 +242,7 @@ h2 {
 .filtros-div {
   width: 60%;
   margin: 20px 0px;
-  border: solid black 0.6px;
+  /*border: $borde-b;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -252,6 +252,15 @@ h2 {
 }
 .filtros-div form {
   margin: 6px 0px;
+}
+
+/*paginas contenido principal*/
+.main-contenedor {
+  width: 90%;
+  padding: 10px;
+  border: solid black 1px;
+  margin: 10px 2px;
+  background-color: white;
 }
 
 .maindiv-a {
@@ -314,7 +323,7 @@ h2 {
   width: 94%;
   height: 94%;
   margin: 10px 2px;
-  border: solid black 1px;
+  /*border: solid black 1px;*/
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -325,7 +334,7 @@ h2 {
 .asidediv-a {
   width: 60%;
   margin: 20px 0px;
-  border: solid black 1px;
+  /*border: solid black 1px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -383,6 +392,25 @@ h2 {
   border: solid black 1px;
   margin: 10px 2px;
   padding: 10px;
+}
+
+/*pie*/
+.pie {
+  width: 98%;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 2px;
+  border: solid black 1px;
+  background-color: #D1F2CA;
+}
+
+.pie__icon--sm {
+  width: 40px;
+}
+
+.pie__titulo--md {
+  font-size: 1.6rem;
+  font-weight: 200;
 }
 
 /*grid*/
@@ -456,25 +484,6 @@ h2 {
 
 #footer {
   grid-area: footer;
-}
-
-/*pie*/
-.pie {
-  width: 98%;
-  text-align: center;
-  padding: 20px;
-  margin: 10px 2px;
-  border: solid black 1px;
-  background-color: #D1F2CA;
-}
-
-.pie__icon--sm {
-  width: 40px;
-}
-
-.pie__titulo--md {
-  font-size: 1.6rem;
-  font-weight: 200;
 }
 
 /*--------diseño responsive--------*/
