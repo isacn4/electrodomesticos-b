@@ -342,6 +342,79 @@ h2 {
   padding: 10px;
 }
 
+/*grid*/
+.contenedor {
+  width: 100%;
+  margin: 0px;
+  padding: 2px auto;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 5, auto;
+  grid-template-areas: "telyemail telyemail" "nav nav" "header header" "productos aside" "footer footer";
+  column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.contenedorb {
+  width: 100%;
+  margin: 0px;
+  padding: 2px auto;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 4, auto;
+  grid-template-areas: "telyemail telyemail telyemail" "nav nav nav" "filtros productos aside" "footer footer footer";
+  column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.contenedorc {
+  width: 100%;
+  margin: 0px;
+  padding: 2px auto;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 4, auto;
+  grid-template-areas: "telyemail telyemail" "nav nav" "formulario formulario" "footer footer";
+  column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+#telyemail {
+  grid-area: telyemail;
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#header {
+  grid-area: header;
+}
+
+#productos {
+  grid-area: productos;
+}
+
+#aside {
+  grid-area: aside;
+}
+
+#filtros {
+  grid-area: filtros;
+}
+
+#formulario {
+  grid-area: formulario;
+}
+
+#mapa {
+  grid-area: mapa;
+}
+
+#footer {
+  grid-area: footer;
+}
+
 /*pie*/
 .pie {
   width: 98%;
