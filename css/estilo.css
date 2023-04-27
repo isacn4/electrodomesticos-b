@@ -401,7 +401,8 @@ h2 {
   padding: 20px;
   margin: 10px 2px;
   border: solid black 1px;
-  background-color: #D1F2CA;
+  background-image: linear-gradient(to right, lightgray, #D1F2CA);
+  /*background-color: $bgcolor-v; */
 }
 
 .pie__icon--sm {

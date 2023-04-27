@@ -5,7 +5,8 @@
     padding: 20px;
     margin: 10px 2px;
     border: $borde-a;
-    background-color: $bgcolor-v;
+    background-image: linear-gradient(to right,lightgray,$bgcolor-v);
+    /*background-color: $bgcolor-v; */   
 }
 .pie__icon--sm{
  width: 40px;
