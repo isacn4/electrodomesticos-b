@@ -12,11 +12,11 @@
     flex-direction: row;
 }
 .formulario-titulo{
-    font-size: 1.6rem;
+    font-size: $letratamaño-b;
     margin: 6px 2px;
 }
 .formulario-titulo::first-letter{
-    font-size: 2rem;
+    font-size: $letratamaño-a;
     color: palegreen;
 
 }
@@ -25,8 +25,8 @@
 }
 
 .bgClaro{
- background-color: white;
- border: solid black 1px;
+ background-color: $bgcolor-bl;
+ border: $borde-a;
  margin: 10px 2px;
  padding: 10px;
 }

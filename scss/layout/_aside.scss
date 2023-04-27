@@ -18,10 +18,11 @@
     flex-direction: column;
     align-items: center;
 }
+
 .asidediv-b{
     margin: 20px 10px;
-}
-.asidediv-b img{
+
+    img{
     width: 20px;
     height: 20px;
     margin: 6px 0px;
@@ -29,11 +30,12 @@
     img:hover{
         transform: scale(2.0);
     }
-
-.asidediv-b p{
-    font-size: 1rem;
-    margin: 2px 0px;
+    
+        p{
+        font-size: 1rem;
+        margin: 2px 0px;
 }
     &:hover{
         color: lightgrey;
     }
+}

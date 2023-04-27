@@ -2,14 +2,14 @@
     width: 90%;
     height: 90%;
     margin: 10px;
-    border: solid black 1px;
+    border: $borde-a;
     padding: 10px;
 }
 .maindiv-b{
     width: 90%;
     height: 90%;
     margin: 10px;
-    border: solid black 1px;
+    border: $borde-a;
     padding: 10px;
     justify-content: space-around;
     display: flex;
@@ -19,7 +19,7 @@
     width: 20%;
     height: 90%;
     margin: 6px 2px;
-    border: solid black 0.6px;
+    border: $bode-b;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -29,23 +29,23 @@
 }
 .main-texto{
     margin: 10px;
-    font-size: 2rem;
+    font-size: $letratamaño-a;
 }
 .maindiv-c{
     figcaption{
     color: forestgreen;
     margin: 2px 0px;
-    font-size: 1.2rem;
+    font-size: $letratamaño-c;
 }
         p{
         margin: 2px 0px;
-        font-size: 1.2rem;
+        font-size: $letratamaño-c;
 }
 }
 .producto-imagen{
     width: 40%;
     height: 80px;
     margin: 6px 0px;
-    border: solid black 0.6px;
+    border: $borde-b;
     /*justify-content: center;*/
 }

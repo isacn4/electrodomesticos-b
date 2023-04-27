@@ -1,13 +1,13 @@
 /*nav*/
 .botonera{
     width: 98%;
-    background-color: #D1F2CA;
+    background-color: $bgcolor-v;
     padding: 10px 2px;
     position: sticky;
     top: 0px;
     left: 0px;
     margin: 10px 2px;
-    border: solid 0.6px black;
+    border: $borde-b;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,10 +27,10 @@
     display: inline-block;
     margin-right: 10px;
         a{
-        color: black;
+        color: $letra-color;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.6rem;
+        font-size: $letratamaño-b;
         font-weight: 200;
         /*background-color: white;*/
         }

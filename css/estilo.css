@@ -306,16 +306,20 @@ h2 {
 .asidediv-b {
   margin: 20px 10px;
 }
-
 .asidediv-b img {
   width: 20px;
   height: 20px;
   margin: 6px 0px;
 }
-
+.asidediv-b img:hover {
+  transform: scale(2);
+}
 .asidediv-b p {
   font-size: 1rem;
   margin: 2px 0px;
+}
+.asidediv-b:hover {
+  color: lightgrey;
 }
 
 /*formulario*/
