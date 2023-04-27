@@ -1,0 +1,11 @@
+@mixin productosdestacados-div ($width, $height, $margen, $borde, $relleno, $display, $direccion, $justificado, $alineado){
+	width: $width;
+	height: $height;
+	margin: $margen;
+	border: $borde;
+	padding: $relleno;
+	display: $display;
+	flex-direction: $direccion;
+	justify-content: $justificado;
+	align-items: $alineado;
+}

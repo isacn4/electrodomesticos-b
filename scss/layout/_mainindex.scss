@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+}
 .productosdestacados-contenedor{
     width: 68%;
     height: 320px;
@@ -19,57 +19,57 @@
     justify-content: center;
     align-items: center;
 }
+
 .productosdestacadosdiv-a{
-    width: 80%;
-    height: 210px;
-    padding: 10px;
-    margin: 10px;
-    border: $borde-a;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    @include productosdestacados-div(80%, 210px, 10px, $borde-a, 10px, flex, row, space-evenly, center);
 }
+
+
 .productosdestacadosdiv-b{
-    width: 30%;
-    height: 160px;
-    margin: 10px;
-    border: $borde-a;
-    padding: 6px;
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    align-items: center;
+    @include productosdestacados-div(30%, 160px, 10px, $borde-b, 6px, flex, column, center,center);
 
-
-}
-.productosdestacadosdiv-b{ 
     img{
-    width: 60px;
-    height: 70px;
-    margin: 2px 0px;
+    width: 70px;
+    height: 80px;
     border: $borde-b;
+} 
+        figcaption{
+    margin-left: 10px;
+}
+}
+.productosdestacados-divb p{
 
-    figcaption{    
-    margin: 2px 0px;
-    color: forestgreen;
-    font-size: $letratamaño-c;
-
-
-    p{
     margin-left: 2px 0px;
     color: $letra-color;
     font-size: $letratamaño-c;
 
 }
 
-} 
+
+/*.productosdestacados-divb{
+    @include productosdestacados-div(30%, 160px, 10px, $borde-b, 6px, flex, column, center, center);
+
+    img{
+    width: 60px;
+    height: 70px;
+    margin: 2px 0px;
+    border: $borde-b;
+}
+        figcaption{    
+        margin: 2px 0px;
+        color: forestgreen;
+        font-size: $letratamaño-c;
 
 }
+            p{
+            margin-left: 2px 0px;
+            color: $letra-color;
+            font-size: $letratamaño-c;
+
 
 }
+}*/
 
-}
 
 .novedades-contenedor{
     width: 68%;

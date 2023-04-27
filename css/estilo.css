@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/*background color*/
+/*letra tamaño*/
+/*letra color*/
+/*borde*/
 /*letra*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap");
 /*reset*/
@@ -53,7 +57,7 @@ h2 {
   top: 0px;
   left: 0px;
   margin: 10px 2px;
-  border: solid 0.6px black;
+  border: solid black 0.6px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -92,7 +96,7 @@ h2 {
 /*header*/
 .encabezado__imagen--fluid {
   width: 98%;
-  border: solid 1px black;
+  border: solid black 1px;
   margin: 10px 2px;
 }
 
@@ -110,7 +114,8 @@ h2 {
   flex-direction: column;
   align-items: center;
 }
-.productosdestacados .productosdestacados-contenedor {
+
+.productosdestacados-contenedor {
   width: 68%;
   height: 320px;
   padding: 20px;
@@ -121,45 +126,68 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.productosdestacados .productosdestacadosdiv-a {
+
+.productosdestacadosdiv-a {
   width: 80%;
   height: 210px;
-  padding: 10px;
   margin: 10px;
   border: solid black 1px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
-.productosdestacados .productosdestacadosdiv-b {
+
+.productosdestacadosdiv-b {
   width: 30%;
   height: 160px;
   margin: 10px;
-  border: solid black 1px;
+  border: solid black 0.6px;
   padding: 6px;
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
+  justify-content: center;
   align-items: center;
 }
-.productosdestacados .productosdestacadosdiv-b img {
-  width: 60px;
-  height: 70px;
-  margin: 2px 0px;
+.productosdestacadosdiv-b img {
+  width: 70px;
+  height: 80px;
   border: solid black 0.6px;
 }
-.productosdestacados .productosdestacadosdiv-b img figcaption {
-  margin: 2px 0px;
-  color: forestgreen;
-  font-size: 1.2rem;
+.productosdestacadosdiv-b figcaption {
+  margin-left: 10px;
 }
-.productosdestacados .productosdestacadosdiv-b img figcaption p {
+
+.productosdestacados-divb p {
   margin-left: 2px 0px;
   color: black;
   font-size: 1.2rem;
 }
 
+/*.productosdestacados-divb{
+    @include productosdestacados-div(30%, 160px, 10px, $borde-b, 6px, flex, column, center, center);
+
+    img{
+    width: 60px;
+    height: 70px;
+    margin: 2px 0px;
+    border: $borde-b;
+}
+        figcaption{    
+        margin: 2px 0px;
+        color: forestgreen;
+        font-size: $letratamaño-c;
+
+}
+            p{
+            margin-left: 2px 0px;
+            color: $letra-color;
+            font-size: $letratamaño-c;
+
+
+}
+}*/
 .novedades-contenedor {
   width: 68%;
   height: 200px;
@@ -436,7 +464,7 @@ h2 {
   text-align: center;
   padding: 20px;
   margin: 10px 2px;
-  border: solid 1px black;
+  border: solid black 1px;
   background-color: #D1F2CA;
 }
 
