@@ -332,6 +332,16 @@ h2 {
   flex-direction: row;
 }
 
+.formulario-titulo {
+  font-size: 1.6rem;
+  margin: 6px 2px;
+}
+
+.formulario-titulo::first-letter {
+  font-size: 2rem;
+  color: palegreen;
+}
+
 .formulario-texto {
   margin: 6px 2px;
 }
