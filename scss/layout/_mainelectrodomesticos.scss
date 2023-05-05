@@ -1,6 +1,93 @@
 /*paginas contenido principal*/
 .main-contenedor{
+    width: 100%;
+    padding: 10px;
+    border: solid black 1px;
+    margin: 10px 2px;
+    background-color: white;
+}
+
+.main-filtro{
+    width: 100%;
+    height: 50px;
+    margin: 2px 0px;
+    border: solid grey 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.main-filtro p{
+    font-size: 1.2rem;
+    margin: 0px 2px;
+}
+.main-filtro select{
+    width: 10%;
+    height: 20px;
+    margin: 0px 2px;
+}
+
+.maindiv-a{
     width: 90%;
+    height: 90%;
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+}
+.maindiv-b{
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    border: solid black 1px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.maindiv-c{
+    width: 20%;
+    height: 100%;
+    border: solid grey 0.6px;
+    box-shadow: 10px;
+    margin: 0px 10px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /*width: 20%;
+    height: 90%;
+    margin: 6px 2px;
+    border: solid black 0.6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;*/
+}
+.main-texto{
+   font-size: 1.6rem;
+    margin: 2px 0px;
+    
+}
+.maindiv-c figcaption{
+    color: forestgreen;
+    margin: 2px 0px;
+    font-size: 1.2rem;
+}
+.maindiv-c p{
+    margin: 2px 0px;
+    font-size: 1.2rem;
+}
+.producto-imagen{
+    object-fit: cover;
+    width: 100%;
+    height: 160px;
+    border: solid grey 0.6px;
+}
+
+/*
+.main-contenedor{
+    width: 100%;
     padding: 10px;
     border: $borde-a;
     margin: 10px 2px;
@@ -55,5 +142,6 @@
     height: 80px;
     margin: 6px 0px;
     border: $borde-b;
-    /*justify-content: center;*/
+    /*justify-content: center;
 }
+*/

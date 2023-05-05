@@ -1,5 +1,5 @@
 /*nav*/
-.botonera{
+/*.botonera{
     width: 98%;
     background-color: $bgcolor-v;
     padding: 10px 2px;
@@ -14,10 +14,141 @@
         img{
         /*margin-right: 40px;
         width: 20%;
-        height: 100px;*/
+        height: 100px;
         }
+}*/
+
+.botonera{
+    width: 100%;
+    /*background-color: #D1F2CA;
+    padding: 10px 2px;*/
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    margin: 6px 0px;
+    border: solid 0.6px black;
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: center;
+    flex-direction: column;
+}
+.botoneradiv-a{
+    width: 100%;
+    background-color: #7BB3FF;
+    /*background-color: #536EF7;*/
+    color: white;
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.botonera a img{
+
+    /*margin-right: 40px;*/
+}
+/*.botoneradiv-b{
+    width: 100%;
+    background-color: #757FFE;
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}*/
+.botonera .navdiv-b{
+    width: 30%;
+    height: 60px;
+    border: solid grey 0.6px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.botonera .navdiv-b input{
+    width: 160px;
+    height: 20px;
+}
+.botonera .navdiv-b img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px;
+}
+.botonera .navdiv-c{
+    width: 40%;
+    height: 60px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid grey 0.6px;
+}
+.botonera .navdiv-d{
+    margin: 0px 6px;
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;    
+}
+.botonera .navdiv-c .navdiv-d img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px;
+}
+.botonera .navdiv-c .navdiv-d p{
+    font-size: 1.2rem;
+}
+
+.botoneradiv-b{
+    width: 100%;
+    background-color: white;
+    /*background-color: #A6A8FF;*/
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*.botoneradiv-b .navdiv-a{
+    width: 30%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid grey 0.6px;
+}*/
+
+.botoneradiv-b ul{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.botoneradiv-b ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.botoneradiv-b ul li a{
+ color: black;
+ text-decoration: none;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1.6rem;
+ font-weight: 200;
+ /*background-color: white;*/
+}
+.botoneradiv-b ul li a:hover {
+color: black;
+font-weight: 400;
+/*border: solid 1px grey;*/
+text-decoration: underline;
+}
+
+
+/*
 .botonera ul{
     display: inline-block;
     margin-top: 10px;
@@ -32,13 +163,14 @@
         font-family: 'Montserrat', sans-serif;
         font-size: $letratamaño-b;
         font-weight: 200;
-        /*background-color: white;*/
+        /*background-color: white;
         }
             a:hover {
             color: black;
             font-weight: 400;
-            /*border: solid 1px grey;*/
+            /*border: solid 1px grey;
             text-decoration: underline;
             }            
 }
 }
+*/

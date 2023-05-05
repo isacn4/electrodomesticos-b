@@ -1,13 +1,238 @@
 /*index contenido principal*/
+
+/*index contenido principal*/
 .productosdestacados{
     width: 100%;
     height: 100%;
-    margin: 10px 2px;
-    /*border: $borde-a;*/
+    margin: 6px 0px;
+    border: solid black 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.categorias{
+    width: 100%;
+    /*height: 25%;*/
+    background-color: white;
+    margin: 2px 0px;
+    border: solid grey 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.categoriasdiv-a{
+    width: 25%;
+    height: 100%;
+    margin: 2px;
+    border: solid 0.6px grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.categoriasdiv-b{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #7BB3FF;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categoriasdiv-b img{
+    width: 40px;
+    height: 40px;
+
+}
+.categoriasdiv-a p{
+    font-size: 1.2rem;
+}
+
+/*categorias*/
+.productosdestacados-contenedor{
+    width: 100%;
+    /*height: 25%;*/
+    background-color: white;
+    padding: 2px;
+    margin: 2px 0px;
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.bannerdiv-a{
+    width: 50%;
+    height: 100%;
+    margin: 2px;
+    border: solid 0.6px grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.bannerdiv-a .bannerdiv-b{
+    width: 20%;
+    height: 100%;
+    background-color: #7BB3FF;
+}
+.bannerdiv-a img{
+    width: 60px;
+    height: 60px;
+    margin-left: -20px;
+}
+.bannerdiv-c{
+    width: 20%;
+    height: 100%;
+    margin: 0px 20px;
+    /*border: solid grey 0.6px;*/
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.bannerdiv-c .texto-a{
+    background-color: #7BB3FF;
+    width: 60%;
+    font-size: 1.6rem;
+    color: white;
+}
+.bannerdiv-c .texto-b{
+    font-size: 1.6rem;
+    color: grey;
+}
+.bannerdiv-c .texto-c{
+    font-size: 1.2rem;
+    color: #7BB3FF;
+    text-decoration: underline;
+}
+
+/*ofertas*/
+.ofertas-contenedor{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding: 2px;
+    margin: 2px 0px;
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: column;
+}
+.ofertas-a{
+    width: 100%;
+    height: 20%;
+    border: solid grey 0.6px;
+}
+.ofertas-a p{
+    font-size: 1.6rem;
+    margin: 2px 6px;
+}
+
+.ofertas-b{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: solid grey 0.6px;
+}
+.ofertasdiv-a{
+    width: 10%;
+    height: 100%;
+    border: solid grey 0.6px;
+    box-shadow: 10px;
+    margin: 0px 10px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ofertasdiv-a img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+    border: solid grey 0.6px;
+}
+.ofertasdiv-a p{
+    font-size: 1.2rem;
+    margin: 2px 0px;
+}
+
+.servicios-contenedor{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin: 2px 0px;
+    border: solid grey 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.servicios-a{
+    width: 100%;
+    height: 20%;
+    border: solid grey 0.6px;
+}
+.servicios-a p{
+    font-size: 1.6rem;
+    margin: 2px 6px;
+}
+
+.servicios-b{
+    width: 100%;
+    height: 80%;
+    border: solid grey 0.6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.serviciosdiv-a{
+    width: 50%;
+    height: 100%;
+    margin: 2px;
+    border: solid 0.6px grey;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bgcolor-a{
+    background-color: grey;
+}
+.bgcolor-b{
+    background-color: #7BB3FF;
+}
+.serviciosdiv-a p{
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+/*.productosdestacados{
+    width: 100%;
+    height: 100%;
+    margin: 10px 2px;
+    /*border: $borde-a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*index contenido principal
+.productosdestacados{
+    width: 98%;
+    height: 100%;
+    margin: 10px 2px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 .productosdestacados-contenedor{
     width: 68%;
     height: 320px;
@@ -68,7 +293,7 @@
 
 
 }
-}*/
+}
 
 
 .novedades-contenedor{
@@ -101,4 +326,5 @@
     margin: 6px 0px;
     border: $borde-b;
 }
+*/
 

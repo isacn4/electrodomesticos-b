@@ -1,14 +1,43 @@
 /*encabezado*/
-.encabezado__box--white{
-	width: 98%;
+.encabezado-contenedor{
+	width: 100%;
 	text-align: center;
 	background-color: $bgcolor-bl;
 	padding: 2px;
-	margin: 10px 2px;
+	margin: 6px 0px;
 	border: $borde-b;
-	
-	p{
-		font-size: $letratamaño-c;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
+.encabezado-contenedor .headerdiv-a{
+    border: solid grey 0.6px;
 }
+
+.encabezado-contenedor div p{
+    font-size: 1.2rem;
+    margin: 0px 2px;
+}
+
+.encabezado-contenedor .headerdiv-b{
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+}
+.encabezado-contenedor .headerdiv-c{
+    margin: 0px 6px;
+    border: solid grey 0.6px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+
+}
+.encabezado-contenedor div img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px;
+}
+	
+

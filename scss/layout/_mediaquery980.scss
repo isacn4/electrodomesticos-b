@@ -11,7 +11,7 @@ h2{
 .contenedor{
         width: 100%;
         padding: 2px;
-        margin: 0px 6px;
+        margin: 0px;
         display: grid;
         grid-template-columns: 2, 1fr;
         grid-template-rows: 6, auto;
@@ -25,12 +25,25 @@ h2{
     }
 
 /*tablet encabezado*/
-.encabezado__box--white{
-    width: 96%;
-    margin: 6px 4px;
+.encabezado-contenedor{
+    /*width: 100%;*/
+    margin: 6px 0px;
     justify-content: center;
     border: solid black 0.6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+.encabezado-contenedor div p{
+    font-size: 1.2rem;
+    margin: 0px 2px;
+}
+.encabezado-contenedor div img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 2px;
+}
+
 
 /*nav*/
 

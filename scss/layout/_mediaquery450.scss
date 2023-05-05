@@ -11,9 +11,9 @@ h2{
 }
 
 .contenedor{
-        width: 88%;
+        width: 100%;
         padding: 2px;
-        margin: 0px 6px;
+        margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 6, auto;
@@ -26,15 +26,20 @@ h2{
         "footer";
 }
 
-.encabezado__box--white{
-    width: 80%;
-    margin: 6px 2px;
+.encabezado-contenedor{
+    /*width: 80%;*/
+    margin: 6px 0px;
     justify-content: center;
     border: solid black 0.6px;
 
     p{
     font-size: 1rem;
 }
+}
+.encabezado-contenedor div img{
+    width: 16px;
+    height: 16px;
+    margin: 0px 2px;
 }
 
 /*cel nav*/

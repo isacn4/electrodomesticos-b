@@ -1,13 +1,151 @@
 /*pie*/
-.pie{
-    width: 98%;
-    text-align: center;
-    padding: 20px;
-    margin: 10px 2px;
-    border: $borde-a;
-    background-image: linear-gradient(to right,lightgray,$bgcolor-v);
-    /*background-color: $bgcolor-v; */   
+.pie-contenedor{
+    width: 100%;
+    height: 400px;
+    /*text-align: center;*/
+    padding: 2px;
+    margin: 6px 0px;
+    border: $borde-b;
+    /*background-image: linear-gradient(to right,lightgray,$bgcolor-v);
+    background-color: $bgcolor-v; */  
+    display: flex;
+    flex-direction: column; 
 }
+
+.piediv-a{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    margin: 2px 0px;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+}
+
+.suscribite-div{
+    width: 30%;
+    height: 100%;
+    margin: 2px;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/*.suscribitediv-a{
+    width: 80%;
+    height: 80%;
+    border: $borde-b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.suscribite-div p{
+    font-size: 1.2rem;
+    margin: 0px 2px;
+}
+.suscribite-div input{
+    width: 100px;
+    height: 20px;
+    margin: 0px 2px;
+}
+
+.atencion-div{
+    width: 40%;
+    height: 100%;
+    margin: 2px;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.atencion-div p{
+    font-size: 1.2rem;
+
+}
+
+.redsocial-div{
+    width: 30%;
+    height: 100%;
+    margin: 2px;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.redsocialdiv-a{
+    width: 60%;
+    border: $borde-b;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.redsocial-div p{
+    font-size: 1.2rem;
+}
+.redsocialdiv-b{
+    width: 60%;
+    border: $borde-b;
+    display: flex;
+    align-items: center;
+}
+.redsocialdiv-b img{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+
+.piediv-b{
+    width: 100%;
+    height: 40%;
+    background-color: lightgrey;
+    margin: 2px 0px;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-texto{
+    width: 20%;
+    height: 80%;
+    margin: 2px 6px;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pie-texto p{
+    font-size: 1.6rem;
+}
+.piediv-c{
+    width: 100%;
+    height: 30%;
+    border: $borde-b;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.copyright-div{
+    width: 60%;
+    border: $borde-b;
+    padding: 2px;
+
+}
+
+/*
 .pie__icon--sm{
  width: 40px;
 }
@@ -15,3 +153,4 @@
     font-size: $letratamaño-b;
     font-weight: 200;
 }
+*/

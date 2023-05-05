@@ -10,7 +10,7 @@
     "telyemail telyemail"
     "nav nav"
     "header header"
-    "productos aside"
+    "productos productos"
     "footer footer";
     column-gap: 10px;
     grid-row-gap: 10px;
@@ -20,13 +20,13 @@
     margin: 0px;
     padding: 2px auto;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 80%;
     grid-template-rows: 4, auto;
     grid-template-areas: 
-    "telyemail telyemail telyemail"
-    "nav nav nav"
-    "filtros productos aside"
-    "footer footer footer";
+    "telyemail telyemail"
+    "nav nav"
+    "filtros productos"
+    "footer footer";
     column-gap: 10px;
     grid-row-gap: 10px;
 }
