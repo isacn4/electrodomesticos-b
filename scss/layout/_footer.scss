@@ -4,7 +4,7 @@
     height: 400px;
     /*text-align: center;*/
     padding: 2px;
-    margin: 6px 0px;
+    margin: 10px 0px;
     border: $borde-b;
     /*background-image: linear-gradient(to right,lightgray,$bgcolor-v);
     background-color: $bgcolor-v; */  
@@ -58,14 +58,21 @@
     width: 40%;
     height: 100%;
     margin: 2px;
-    border: $borde-b;
+    border: solid grey 0.6px;
     padding: 2px;
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     align-items: center;
     justify-content: center;
 }
-.atencion-div p{
+.atenciondiv-a{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.atenciondiv-a p{
     font-size: 1.2rem;
 
 }
@@ -142,7 +149,8 @@
     width: 60%;
     border: $borde-b;
     padding: 2px;
-
+    display: flex;
+    align-content: center;
 }
 
 /*
