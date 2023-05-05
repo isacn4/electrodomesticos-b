@@ -1298,7 +1298,7 @@ h2 {
   }
   .encabezado-contenedor {
     /*width: 80%;*/
-    margin: 6px 0px;
+    margin: 4px 0px;
     justify-content: center;
     border: solid black 0.6px;
   }
@@ -1340,16 +1340,28 @@ h2 {
     margin: 2px 6px;
   }
   /*header foto cel*/
-  .encabezado__imagen--fluid {
-    width: 80%;
-    margin: 6px 2px;
+  .header-foto {
+    /*: 80%;*/
+    margin: 4px 0px;
   }
   /*cel productos*/
   /*productos destacados*/
   .productosdestacados {
-    width: 80%;
-    margin: 6px 2px;
+    width: 100%;
+    margin: 4px 0px;
     padding: 2px;
+  }
+  .categorias {
+    width: 100%;
+    margin: 2px 0px;
+  }
+  .categoriasdiv-a {
+    width: 50%;
+    /*height: 100%;*/
+  }
+  .categoriasdiv-b {
+    width: 80px;
+    height: 80px;
   }
   .productosdestacados-contenedor {
     width: 80%;
