@@ -14,39 +14,212 @@ h2{
         margin: 0px;
         display: grid;
         grid-template-columns: 2, 1fr;
-        grid-template-rows: 6, auto;
+        grid-template-rows: 5, auto;
         grid-template-areas:
         "telyemail telyemail"
         "nav nav"
         "header header"
         "productos productos"
-        "aside aside"
         "footer footer";
     }
 
 /*tablet encabezado*/
 .encabezado-contenedor{
     /*width: 100%;*/
-    margin: 6px 0px;
+    margin: 4px 0px;
     justify-content: center;
     border: solid black 0.6px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 .encabezado-contenedor div p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0px 2px;
 }
 .encabezado-contenedor div img{
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     margin: 0px 2px;
 }
 
 
 /*nav*/
+.botonera{
+    width: 100%;
+    height: auto;
+}
+/*header foto cel*/
+.header-foto{
+    /*: 80%;*/
+    margin: 4px 0px;
+}
+/*productos destacados*/
+.productosdestacados{
+    width: 100%;
+    /*height: 10px;*/
+    margin: 4px 0px;
+    padding: 2px;
+}
+/*categorias*/
 
+.categorias{
+    width: 100%;
+    height: 220px;
+    margin: 2px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.categoriasdiv-a{
+    width: 45%;
+    height: 45%;
+}
+.categoriasdiv-b{
+    width: 60px;
+    height: 60px;
+}
+
+/*banner*/
+.productosdestacados-contenedor{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.bannerdiv-a{
+    width: 50%;
+    height: 100%;
+}
+/*ofertas*/
+.ofertas-contenedor{
+    width: 100%;
+    height: auto;
+}
+.ofertas-a{
+    width: 100%;
+    height: 40px;
+}
+.ofertas-b{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ofertasdiv-a{
+    width: 30%;
+    height: 50%;
+    margin: 2px 20px;
+}
+
+/*servicios*/
+.servicios-contenedor{
+    width: 100%;
+    height: 200px;
+}
+.servicios-a{
+    width: 100%;
+    height: 20px;
+}
+.servicios-b{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+
+.serviciosdiv-a{
+    width: 50%;
+    height: 100%;
+}
+
+.pie-contenedor{
+    width: 100%;
+    height: auto;
+    }
+.piediv-a{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.piediv-a{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.suscribite-div{
+    width: 100%;
+    height: 25%;
+}
+.suscribite-div p{
+    font-size: 1rem;
+    margin: 0px 2px;
+}
+.suscribite-div input{
+    width: 100px;
+    height: 20px;
+    margin: 0px 2px;
+}
+.atencion-div{
+    width: 100%;
+    height: 50%;
+}
+.atenciondiv-a{
+    width: 80%;
+    height: 80%;
+}
+.atenciondiv-a p{
+    font-size: 1rem;
+}
+.redsocial-div{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.redsocialdiv-a{
+    width: 40%;
+    height: 100%;
+}
+.redsocial-div p{
+    font-size: 1rem;
+}
+.redsocialdiv-b{
+    width: 40%;
+    height: 100%;
+}
+.redsocialdiv-b img{
+    width: 30px;
+    height: 30px;
+}
+.piediv-b{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pie-texto{
+    width: 40%;
+    height: 40%;
+}
+.pie-texto p{
+    font-size: 1.2rem;
+}
+.piediv-c{
+    width: 100%;
+    height: 60px;
+}
+.copyright-div{
+    width: 80%;
+}
+
+/*
 .botonera{
     width: 96%;
     height: 120px;
@@ -65,23 +238,23 @@ h2{
 }
 
 .botonera ul{
-    /*display: inline-block;*/
+    /*display: inline-block;
     margin: 2px 6px;
     width: 30%;
     display: flex;
-    /*border: solid black 0.6px;*/
+    /*border: solid black 0.6px;
     padding: 2px;
     flex-direction: row;
     flex-wrap: wrap;
   
     li{
     margin: 2px;
-    /*display: block;*/
+    /*display: block;
 
 
         a{
         font-size: 1.2rem;
-        /*margin: 2px 4px;*/
+        /*margin: 2px 4px;
 }
 }
 }
@@ -89,12 +262,15 @@ h2{
 .divnav{
     margin: 2px;
 }
+
 .encabezado__imagen--fluid{
      width: 96%;
      margin: 6px 4px;
 }
 /*tablet productos*/
 /*tablet productos destacados*/
+
+/*
 .productosdestacados{
     width: 96%;
     margin: 6px 4px;
@@ -107,7 +283,7 @@ h2{
 .productosdestacados-contenedor{
     width: 90%;
     height: 280px;
-    /*border: solid grey 1px;*/
+    /*border: solid grey 1px;
     margin: 6px 4px;
     padding: 2px 6px;
     display: flex;
@@ -187,7 +363,7 @@ overflow: auto;
     margin: 2px 0px;
 }
 
-/*aside*/
+/*aside
 .aside-contenedor{
     width: 96%;
     height: 160px;
@@ -225,6 +401,7 @@ overflow: auto;
     height: 40px;
 }
 }
+*/
 
 .pie{
     width: 96%;
@@ -244,20 +421,116 @@ overflow: auto;
 
 .contenedorb{
     width: 100%;
-    margin: 0px 6px;
+    margin: 0px;
     padding: 2px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6, auto;
+    grid-template-rows: 5, auto;
     grid-template-areas:
     "telyemail telyemail"
     "nav nav"
     "filtros filtros"
     "productos productos"
-    "aside aside"
     "footer footer";
-    }
+}
 
+.filtros-contenedor{
+    width: 100%;
+    padding: 6px 2px;
+    font-size: 1.2rem;
+}
+.filtros-div{
+    width: 80%;
+    margin: 6px 2px;
+}
+
+.filtrosdiv-a{
+    width: 100%;
+    height: 40px;
+}
+.filtrosdiv-b{
+    width: 100%;
+    height: 80px;
+}
+.filtrosdiv-c{
+    width: 100%;
+    height: 200px;
+}
+.filtrosdivc-titulo{
+    width: 100%;
+    height: 20px;
+}
+.filtrosdivc-texto{
+    width: 100%;
+    height: 40px;
+}
+
+.filtrosdiv-d{
+    width: 100%;
+}
+.filtrosdivd-a{
+    width: 100%;
+    height: 40px;
+}
+.filtrosdivd-a p{
+    font-size: 1.2rem;
+}
+.filtrosdivd-b{
+    width: 100%;
+    height: 40px;
+}
+.filtrosdivd-c{
+    width: 100%;
+    height: 40px;
+}
+.filtrosdivd-d{
+    width: 100%;
+    height: 40px;
+}
+.filtrosdivd-ab{
+    width: 40%;
+    height: 100%;
+}
+.filtrosdivd-ab label{
+    font-size: 1rem;
+}
+
+.maindiv-a{
+    width: 100%;
+    height: 70%;
+}
+.maindiv-b{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*overflow: scroll;*/
+    justify-content: space-around;
+    align-items: center;
+}
+.maindiv-c{
+    width: 30%;
+    height: 90%;
+    margin: 2px 20px;
+
+}
+.main-texto{
+   font-size: 1.6rem;
+    margin: 2px 0px;    
+}
+.maindiv-c figcaption{
+    color: forestgreen;
+    margin: 2px 0px;
+    font-size: 1.2rem;
+}
+.maindiv-c p{
+    margin: 2px 0px;
+    font-size: 1.2rem;
+}
+
+
+/*
 .filtros-contenedor{
     width: 96%;
     height: 160px;
@@ -273,6 +546,9 @@ overflow: auto;
     align-items: center;
 
 }
+*/
+
+/*
 
 .main-contenedor{
     width: 96%;
@@ -322,6 +598,7 @@ overflow: auto;
 }
 }
 
+*/
 .contenedorc{
         width: 100%;
         padding: 2px;
@@ -352,7 +629,7 @@ overflow: auto;
     display: flex;
     flex-direction: column;
     /*justify-content: flex-start;
-    align-content: flex-start;*/
+    align-content: flex-start;
 }
 
 .formulariodiv-a{
