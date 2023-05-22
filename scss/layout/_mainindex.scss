@@ -14,10 +14,12 @@
     width: 100%;
     /*height: 25%;*/
     background-color: white;
-    margin: 2px 0px;
+    margin: 4px 0px;
     border: solid grey 0.6px;
     padding: 2px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
 }
 .categoriasdiv-a{
@@ -86,7 +88,7 @@
     margin-left: -20px;
 }
 .bannerdiv-c{
-    width: 20%;
+    width: 40%;
     height: 100%;
     margin: 0px 20px;
     /*border: solid grey 0.6px;*/
@@ -98,24 +100,27 @@
 }
 .bannerdiv-c .texto-a{
     background-color: #7BB3FF;
-    width: 60%;
+    /*width: 60%;*/
     font-size: 1.6rem;
     color: white;
+    padding: 2px;
 }
 .bannerdiv-c .texto-b{
     font-size: 1.6rem;
     color: grey;
+    padding: 2px;
 }
 .bannerdiv-c .texto-c{
     font-size: 1.2rem;
     color: #7BB3FF;
     text-decoration: underline;
+    padding: 2px;
 }
 
 /*ofertas*/
 .ofertas-contenedor{
     width: 100%;
-    height: 300px;
+    height: 340px;
     background-color: white;
     padding: 2px;
     margin: 2px 0px;
@@ -145,7 +150,7 @@
     border: solid grey 0.6px;
 }
 .ofertasdiv-a{
-    width: 10%;
+    width: 12%;
     height: 100%;
     border: solid grey 0.6px;
     box-shadow: 10px;
@@ -156,7 +161,7 @@
     flex-direction: column;
 }
 .ofertasdiv-a img{
-    object-fit: cover;
+    /*object-fit: cover;*/
     width: 100%;
     height: 80%;
     border: solid grey 0.6px;
@@ -209,7 +214,7 @@
     justify-content: center;
 }
 .bgcolor-a{
-    background-color: grey;
+    background-color: #EBEBEB;
 }
 .bgcolor-b{
     background-color: #7BB3FF;
