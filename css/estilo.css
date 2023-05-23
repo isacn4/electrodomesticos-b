@@ -211,8 +211,9 @@ h2 {
 }*/
 .botoneradiv-b ul {
   display: inline-block;
-  margin-top: 2px;
-  margin-left: 4px;
+  /*margin-top: 2px;
+  margin-left: 4px;*/
+  margin: 0px 22px;
 }
 
 .botoneradiv-b ul li {
@@ -457,7 +458,7 @@ h2 {
 .ofertasdiv-a img {
   /*object-fit: cover;*/
   width: 100%;
-  height: 80%;
+  height: 210px;
   border: solid grey 0.6px;
 }
 
@@ -1179,7 +1180,7 @@ h2 {
 
 .pie-texto {
   width: 20%;
-  height: 80%;
+  height: 90%;
   margin: 2px 6px;
   border: solid black 0.6px;
   padding: 2px;
@@ -1189,7 +1190,7 @@ h2 {
 }
 
 .pie-texto p {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 .piediv-c {
@@ -1208,6 +1209,10 @@ h2 {
   padding: 2px;
   display: flex;
   align-content: center;
+}
+
+.copyright-div p {
+  font-size: 1.2rem;
 }
 
 /*
@@ -1885,22 +1890,26 @@ h2 {
   .ofertas-contenedor {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .ofertas-a {
     width: 100%;
     height: 40px;
   }
   .ofertas-b {
-    width: 60%;
+    width: 70%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
   }
   .ofertasdiv-a {
     width: 30%;
-    height: 50%;
+    height: 40%;
     margin: 2px 20px;
   }
   /*servicios*/
@@ -1934,7 +1943,7 @@ h2 {
   }
   .piediv-a {
     width: 100%;
-    height: 200px;
+    height: 240px;
     display: flex;
     flex-direction: column;
   }
@@ -1943,8 +1952,8 @@ h2 {
     height: 25%;
   }
   .suscribite-div p {
-    font-size: 1rem;
-    margin: 0px 2px;
+    font-size: 1.6rem;
+    margin: 0px 10px;
   }
   .suscribite-div input {
     width: 100px;
@@ -1960,7 +1969,7 @@ h2 {
     height: 80%;
   }
   .atenciondiv-a p {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .redsocial-div {
     width: 100%;
@@ -1973,7 +1982,7 @@ h2 {
     height: 100%;
   }
   .redsocial-div p {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   .redsocialdiv-b {
     width: 40%;
