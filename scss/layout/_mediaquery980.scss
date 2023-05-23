@@ -631,14 +631,15 @@ overflow: auto;
     flex-direction: column;
 }
 .contacto{
-    width: 80%;
+    width: 90%;
     background-color: white;
+    border: solid grey 0.6px;
     padding: 2px;
     margin: 2px;
     display: flex;
-    flex-direction: column;
-    /*justify-content: flex-start;
-    align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-content: flex-start;
 }
 
 .formulariodiv-a{
@@ -650,9 +651,18 @@ overflow: auto;
 
     /*justify-content: flex-start;*/
 }
+.contacto-a{
+    width: 40%;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    border: solid grey 0.6px;
+}
 
 .formulariodiv-b{
-    margin: 6px 2px;
+    margin: 6px 6px;
     display: flex;
     flex-direction: row;
 }
@@ -676,5 +686,8 @@ overflow: auto;
 .formulario-boton{
     width: 20%;
     margin: 4px 2px;
+}
+.mapa{
+    width: 40%;
 }
 }

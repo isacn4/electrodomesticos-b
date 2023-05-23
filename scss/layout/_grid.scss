@@ -2,7 +2,8 @@
 .contenedor{
     width: 100%;
     margin: 0px;
-    padding: 2px auto;
+    /*padding: 2px auto;*/
+    padding: 0px;
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 5, auto;
@@ -18,7 +19,8 @@
 .contenedorb{
     width: 100%;
     margin: 0px;
-    padding: 2px auto;
+    /*padding: 2px auto;*/
+    padding: 0px;
     display: grid;
     grid-template-columns: 20% 80%;
     grid-template-rows: 4, auto;
@@ -33,7 +35,8 @@
 .contenedorc{
     width: 100%;
     margin: 0px;
-    padding: 2px auto;
+    /*padding: 2px auto;*/
+    padding: 0px;
     display: grid;
     grid-template-columns: 80% 20%;
     grid-template-rows: 4, auto;

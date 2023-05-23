@@ -1,3 +1,4 @@
+
 /*--------diseño responsive--------*/
 
 /*--celular--*/
@@ -12,7 +13,7 @@ h2{
 
 .contenedor{
         width: 100%;
-        padding: 2px;
+        padding: 0px;
         margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
@@ -304,8 +305,8 @@ h2{
 
 .contenedorb{
     width: 100%;
-    margin: 0px 6px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5, auto;
@@ -514,8 +515,8 @@ h2{
 */
 .contenedorc{
         width: 100%;
-        padding: 2px;
-        margin: 0px 6px;
+        padding: 0px;
+        margin: 0px;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 4, auto;

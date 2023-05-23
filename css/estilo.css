@@ -1228,7 +1228,8 @@ h2 {
 .contenedor {
   width: 100%;
   margin: 0px;
-  padding: 2px auto;
+  /*padding: 2px auto;*/
+  padding: 0px;
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: 5, auto;
@@ -1240,7 +1241,8 @@ h2 {
 .contenedorb {
   width: 100%;
   margin: 0px;
-  padding: 2px auto;
+  /*padding: 2px auto;*/
+  padding: 0px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 4, auto;
@@ -1252,7 +1254,8 @@ h2 {
 .contenedorc {
   width: 100%;
   margin: 0px;
-  padding: 2px auto;
+  /*padding: 2px auto;*/
+  padding: 0px;
   display: grid;
   grid-template-columns: 80% 20%;
   grid-template-rows: 4, auto;
@@ -1308,7 +1311,7 @@ h2 {
   }
   .contenedor {
     width: 100%;
-    padding: 2px;
+    padding: 0px;
     margin: 0px;
     display: grid;
     grid-template-columns: 1fr;
@@ -1566,8 +1569,8 @@ h2 {
   }
   .contenedorb {
     width: 100%;
-    margin: 0px 6px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 5, auto;
@@ -1760,8 +1763,8 @@ h2 {
   */
   .contenedorc {
     width: 100%;
-    padding: 2px;
-    margin: 0px 6px;
+    padding: 0px;
+    margin: 0px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 4, auto;
@@ -2406,14 +2409,15 @@ h2 {
     flex-direction: column;
   }
   .contacto {
-    width: 80%;
+    width: 90%;
     background-color: white;
+    border: solid grey 0.6px;
     padding: 2px;
     margin: 2px;
     display: flex;
-    flex-direction: column;
-    /*justify-content: flex-start;
-        align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    /*align-content: flex-start;
     }
 
     .formulariodiv-a{
@@ -2425,8 +2429,17 @@ h2 {
 
         /*justify-content: flex-start;*/
   }
+  .contacto-a {
+    width: 40%;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    border: solid grey 0.6px;
+  }
   .formulariodiv-b {
-    margin: 6px 2px;
+    margin: 6px 6px;
     display: flex;
     flex-direction: row;
   }
@@ -2447,6 +2460,9 @@ h2 {
   .formulario-boton {
     width: 20%;
     margin: 4px 2px;
+  }
+  .mapa {
+    width: 40%;
   }
 }
 
