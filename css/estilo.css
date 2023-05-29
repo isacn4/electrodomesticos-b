@@ -79,35 +79,14 @@ h2 {
 }
 
 /*nav*/
-/*.botonera{
-    width: 98%;
-    background-color: $bgcolor-v;
-    padding: 10px 2px;
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    margin: 10px 2px;
-    border: $borde-b;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-        img{
-        /*margin-right: 40px;
-        width: 20%;
-        height: 100px;
-        }
-}*/
 .botonera {
   width: 100%;
-  /*background-color: #D1F2CA;
-  padding: 10px 2px;*/
   position: sticky;
   top: 0px;
   left: 0px;
   margin: 6px 0px;
   border: solid 0.6px black;
   display: flex;
-  /*justify-content: space-around;*/
   align-items: center;
   flex-direction: column;
 }
@@ -115,7 +94,6 @@ h2 {
 .botoneradiv-a {
   width: 100%;
   background-color: #7BB3FF;
-  /*background-color: #536EF7;*/
   color: white;
   border: solid grey 0.6px;
   padding: 2px;
@@ -129,15 +107,6 @@ h2 {
   /*margin-right: 40px;*/
 }
 
-/*.botoneradiv-b{
-    width: 100%;
-    background-color: #757FFE;
-    border: solid grey 0.6px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}*/
 .botonera .navdiv-b {
   width: 30%;
   height: 60px;
@@ -192,7 +161,6 @@ h2 {
   width: 100%;
   height: auto;
   background-color: white;
-  /*background-color: #A6A8FF;*/
   border: solid grey 0.6px;
   padding: 2px;
   display: flex;
@@ -201,18 +169,8 @@ h2 {
   align-items: center;
 }
 
-/*.botoneradiv-b .navdiv-a{
-    width: 30%;
-    padding: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid grey 0.6px;
-}*/
 .botoneradiv-b ul {
   display: inline-block;
-  /*margin-top: 2px;
-  margin-left: 4px;*/
   margin: 0px 22px;
 }
 
@@ -228,7 +186,6 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   font-weight: 200;
-  /*background-color: white;*/
 }
 
 .botoneradiv-b ul li a:hover {
@@ -238,39 +195,7 @@ h2 {
   text-decoration: underline;
 }
 
-/*
-.botonera ul{
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-        a{
-        color: $letra-color;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        font-size: $letratamaño-b;
-        font-weight: 200;
-        /*background-color: white;
-        }
-            a:hover {
-            color: black;
-            font-weight: 400;
-            /*border: solid 1px grey;
-            text-decoration: underline;
-            }            
-}
-}
-*/
 /*header*/
-/*.encabezado__imagen--fluid{
-    width: 98%;
-   border: $borde-a;
-    margin: 10px 2px;
-
-}*/
 .header-foto {
   width: 100%;
   border: solid black 1px;
@@ -295,7 +220,6 @@ h2 {
 
 .categorias {
   width: 100%;
-  /*height: 25%;*/
   background-color: white;
   margin: 4px 0px;
   border: solid grey 0.6px;
@@ -360,7 +284,6 @@ h2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*justify-content: center;*/
 }
 
 .bannerdiv-a .bannerdiv-b {
@@ -389,7 +312,6 @@ h2 {
 
 .bannerdiv-c .texto-a {
   background-color: #7BB3FF;
-  /*width: 60%;*/
   font-size: 1.6rem;
   color: white;
   padding: 2px;
@@ -456,7 +378,6 @@ h2 {
 }
 
 .ofertasdiv-a img {
-  /*object-fit: cover;*/
   width: 100%;
   height: 210px;
   border: solid grey 0.6px;
@@ -526,118 +447,6 @@ h2 {
   color: white;
 }
 
-/*.productosdestacados{
-    width: 100%;
-    height: 100%;
-    margin: 10px 2px;
-    /*border: $borde-a;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/*index contenido principal
-.productosdestacados{
-    width: 98%;
-    height: 100%;
-    margin: 10px 2px;
-    border: solid black 1px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-.productosdestacados-contenedor{
-    width: 68%;
-    height: 320px;
-    padding: 20px;
-    margin: 6px 2px;
-    border: $borde-b;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.productosdestacadosdiv-a{
-    @include productosdestacados-div(80%, 210px, 10px, none, 10px, flex, row, space-evenly, center);
-}
-
-
-.productosdestacadosdiv-b{
-    @include productosdestacados-div(30%, 160px, 10px, $borde-b, 6px, flex, column, center,center);
-
-    img{
-    width: 70px;
-    height: 80px;
-    border: $borde-b;
-} 
-        figcaption{
-    margin-left: 10px;
-}
-}
-.productosdestacados-divb p{
-
-    margin-left: 2px 0px;
-    color: $letra-color;
-    font-size: $letratamaño-c;
-
-}
-
-
-/*.productosdestacados-divb{
-    @include productosdestacados-div(30%, 160px, 10px, $borde-b, 6px, flex, column, center, center);
-
-    img{
-    width: 60px;
-    height: 70px;
-    margin: 2px 0px;
-    border: $borde-b;
-}
-        figcaption{    
-        margin: 2px 0px;
-        color: forestgreen;
-        font-size: $letratamaño-c;
-
-}
-            p{
-            margin-left: 2px 0px;
-            color: $letra-color;
-            font-size: $letratamaño-c;
-
-
-}
-}
-
-
-.novedades-contenedor{
-    width: 68%;
-    height: 200px;
-    padding: 20px;
-    margin: 6px 2px;
-    border: $borde-a;
-    overflow: auto;
-}
-.novedades__tituloa{
-    font-size: $letratamaño-a;
-    color: $letra-color;
-    font-weight: 200;
-    text-align: center;
-}
-.novedades-titulo{
-    font-size: $letratamaño-a;
-    color: $letra-color;
-    font-weight: 200;
-}
-.novedades-texto{
-    font-size: $letratamaño-b;
-    color: $letra-color;
-}
-.novedades__textob{
-    font-size: $letratamaño-c;
-}
-.novedades-contenedor img{
-    margin: 6px 0px;
-    border: $borde-b;
-}
-*/
 /*filtros*/
 .filtros-contenedor {
   width: 90%;
@@ -647,7 +456,6 @@ h2 {
   line-height: 1.6rem;
   border: solid black 1px;
   display: flex;
-  /*justify-content: center;*/
   flex-direction: column;
   margin: 10px 2px;
   align-items: center;
@@ -717,7 +525,6 @@ h2 {
 
 .filtrosdiv-d {
   width: 100%;
-  /*height: 200px;*/
   border: solid grey 0.6px;
   padding: 2px;
 }
@@ -780,36 +587,6 @@ h2 {
   width: 60px;
 }
 
-/*
-.filtros-contenedor{
-    width: 90%;
-    color: $letra-color;
-    padding: 10px;
-    font-size: $letratamaño-c;
-    line-height: 1.6rem;
-    border: $borde-a;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 10px 2px;
-    align-items: center;
-}
-.filtros-div{
-    width: 60%;
-    margin: 20px 0px;
-    border: $borde-b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    h2{
-    margin: 10px 0px;
-} 
-        form{
-        margin: 6px 0px;   
-}
-}
-*/
 /*paginas contenido principal*/
 .main-contenedor {
   width: 100%;
@@ -870,16 +647,6 @@ h2 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  /*width: 20%;
-  height: 90%;
-  margin: 6px 2px;
-  border: solid black 0.6px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;*/
 }
 
 .main-texto {
@@ -911,77 +678,15 @@ h2 {
   border: solid grey 0.6px;
 }
 
-/*
-.main-contenedor{
-    width: 100%;
-    padding: 10px;
-    border: $borde-a;
-    margin: 10px 2px;
-    background-color: $bgcolor-bl;
-}
-.maindiv-a{
-    width: 90%;
-    height: 90%;
-    margin: 10px;
-    border: $borde-a;
-    padding: 10px;
-}
-.maindiv-b{
-    width: 90%;
-    height: 90%;
-    margin: 10px;
-    border: $borde-a;
-    padding: 10px;
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-}
-.maindiv-c{
-    width: 20%;
-    height: 90%;
-    margin: 6px 2px;
-    border: $borde-b;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.main-texto{
-    margin: 10px;
-    font-size: $letratamaño-a;
-}
-.maindiv-c{
-    figcaption{
-    color: forestgreen;
-    margin: 2px 0px;
-    font-size: $letratamaño-c;
-}
-        p{
-        margin: 2px 0px;
-        font-size: $letratamaño-c;
-}
-}
-.producto-imagen{
-    width: 40%;
-    height: 80px;
-    margin: 6px 0px;
-    border: $borde-b;
-    /*justify-content: center;
-}
-*/
 /*aside*/
 .aside-contenedor {
   width: 94%;
   height: 94%;
   margin: 10px 2px;
-  /*border: solid black 1px;*/
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*justify-content: center;*/
 }
 
 .asidediv-a {
@@ -1014,10 +719,7 @@ h2 {
 
 /*formulario*/
 .formulariodiv-a {
-  /*border: solid 1px black;*/
   margin: 10px 2px;
-  /* display: flex;
-   justify-content: flex-start;*/
 }
 
 .formulariodiv-b {
@@ -1051,12 +753,9 @@ h2 {
 .pie-contenedor {
   width: 100%;
   height: 400px;
-  /*text-align: center;*/
   padding: 2px;
   margin: 10px 0px;
   border: solid black 0.6px;
-  /*background-image: linear-gradient(to right,lightgray,$bgcolor-v);
-  background-color: $bgcolor-v; */
   display: flex;
   flex-direction: column;
 }
@@ -1084,15 +783,6 @@ h2 {
   justify-content: center;
 }
 
-/*.suscribitediv-a{
-    width: 80%;
-    height: 80%;
-    border: $borde-b;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}*/
 .suscribite-div p {
   font-size: 1.2rem;
   margin: 0px 2px;
@@ -1215,20 +905,10 @@ h2 {
   font-size: 1.2rem;
 }
 
-/*
-.pie__icon--sm{
- width: 40px;
-}
-.pie__titulo--md{
-    font-size: $letratamaño-b;
-    font-weight: 200;
-}
-*/
 /*grid*/
 .contenedor {
   width: 100%;
   margin: 0px;
-  /*padding: 2px auto;*/
   padding: 0px;
   display: grid;
   grid-template-columns: 80% 20%;
@@ -1241,7 +921,6 @@ h2 {
 .contenedorb {
   width: 100%;
   margin: 0px;
-  /*padding: 2px auto;*/
   padding: 0px;
   display: grid;
   grid-template-columns: 20% 80%;
@@ -1254,7 +933,6 @@ h2 {
 .contenedorc {
   width: 100%;
   margin: 0px;
-  /*padding: 2px auto;*/
   padding: 0px;
   display: grid;
   grid-template-columns: 80% 20%;
@@ -1374,14 +1052,12 @@ h2 {
   }
   /*header foto cel*/
   .header-foto {
-    /*: 80%;*/
     margin: 4px 0px;
   }
   /*cel productos*/
   /*productos destacados*/
   .productosdestacados {
     width: 100%;
-    /*height: 10px;*/
     margin: 4px 0px;
     padding: 2px;
   }
@@ -1435,14 +1111,11 @@ h2 {
     height: 90%;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     align-items: center;
-    /*overflow: scroll;*/
   }
   .ofertasdiv-a {
     width: 32%;
     height: 22%;
-    /*height: 80%;*/
     margin: 2px 0px;
   }
   .div-ofertab {
@@ -1551,7 +1224,6 @@ h2 {
   .copyright-div {
     width: 80%;
   }
-  /*cel productos novedades*/
   /*footer*/
   .pie {
     width: 80%;
@@ -1676,91 +1348,6 @@ h2 {
     height: 160px;
     border: solid 0.6px grey;
   }
-  /*aside*/
-  /*
-  .aside-contenedor{
-      width: 80%;
-      height: 120px;
-      margin: 6px 2px;
-      border: solid black 0.6px;
-      padding: 2px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
-  .asidediv-a{
-      width: 60%;
-      height: 80px;
-      padding: 2px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-  }
-  .asidediv-b{
-      width: 20%;
-      margin: 20%;
-      margin: 6px;
-      border: solid black 0.6px;
-      padding: 2px;
-      display: flex;
-      flex-direction: column;
-
-      img{
-      width: 20px;
-      height: 20px;
-  }
-  }
-
-  .main-contenedor{
-      width: 80%;
-      /*height: 760px;
-      padding: 2px;
-      border: solid black 0.6px;
-      margin: 6px 2px;
-      background-color: white;
-  }
-  .maindiv-a{
-      width: 80%;
-      /*height: 720px;
-      margin: 2px;
-      border: solid black 0.6px;
-      padding: 2px;
-  }
-  .maindiv-b{
-      width: 80%;
-      /*height: 300px;
-      margin: 6px;
-      border: solid black 0.6px;
-      padding: 6px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      /*flex-wrap: wrap;
-  }
-  .maindiv-c{
-      width: 60%;
-      /*height: 200px;
-      margin: 2px 0px;
-      border: solid black 0.6px;
-      padding: 2px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-  }
-  .maintexto{
-      margin: 10px 0px;
-  }
-  .productoimagen{
-      width: 80px;
-      height: 100px;
-      margin: 10px 0px;
-      border: solid black 0.6px;
-      /*justify-content: center;
-  }
-  */
   .contenedorc {
     width: 100%;
     padding: 0px;
@@ -1785,8 +1372,6 @@ h2 {
     display: flex;
     flex-direction: column;
     border: solid grey 0.6px;
-    /*justify-content: flex-start;/*
-    /*align-content: flex-start;*/
   }
   .formularioa {
     width: 100%;
@@ -1800,7 +1385,6 @@ h2 {
     margin: 6px 2px;
     display: flex;
     flex-direction: column;
-    /*justify-content: flex-start;*/
   }
   .formulariodiv-b {
     width: 60%;

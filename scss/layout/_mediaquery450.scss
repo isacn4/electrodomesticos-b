@@ -90,7 +90,6 @@ h2{
 
 /*header foto cel*/
 .header-foto{
-        /*: 80%;*/
         margin: 4px 0px;
 }
 
@@ -99,7 +98,6 @@ h2{
 /*productos destacados*/
 .productosdestacados{
     width: 100%;
-    /*height: 10px;*/
     margin: 4px 0px;
     padding: 2px;
 }
@@ -159,14 +157,11 @@ h2{
     height: 90%;
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     align-items: center;
-    /*overflow: scroll;*/
 }
 .ofertasdiv-a{
     width: 32%;
     height: 22%;
-    /*height: 80%;*/
     margin: 2px 0px;
 }
 .div-ofertab{
@@ -281,8 +276,6 @@ h2{
     width: 80%;
 }
 
-
-/*cel productos novedades*/
 
 /*footer*/
 .pie{
@@ -425,94 +418,6 @@ h2{
     border: solid 0.6px grey;
 }
 
-
-
-/*aside*/
-
-/*
-.aside-contenedor{
-    width: 80%;
-    height: 120px;
-    margin: 6px 2px;
-    border: solid black 0.6px;
-    padding: 2px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.asidediv-a{
-    width: 60%;
-    height: 80px;
-    padding: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.asidediv-b{
-    width: 20%;
-    margin: 20%;
-    margin: 6px;
-    border: solid black 0.6px;
-    padding: 2px;
-    display: flex;
-    flex-direction: column;
-
-    img{
-    width: 20px;
-    height: 20px;
-}
-}
-
-.main-contenedor{
-    width: 80%;
-    /*height: 760px;
-    padding: 2px;
-    border: solid black 0.6px;
-    margin: 6px 2px;
-    background-color: white;
-}
-.maindiv-a{
-    width: 80%;
-    /*height: 720px;
-    margin: 2px;
-    border: solid black 0.6px;
-    padding: 2px;
-}
-.maindiv-b{
-    width: 80%;
-    /*height: 300px;
-    margin: 6px;
-    border: solid black 0.6px;
-    padding: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /*flex-wrap: wrap;
-}
-.maindiv-c{
-    width: 60%;
-    /*height: 200px;
-    margin: 2px 0px;
-    border: solid black 0.6px;
-    padding: 2px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-.maintexto{
-    margin: 10px 0px;
-}
-.productoimagen{
-    width: 80px;
-    height: 100px;
-    margin: 10px 0px;
-    border: solid black 0.6px;
-    /*justify-content: center;
-}
-*/
 .contenedorc{
         width: 100%;
         padding: 0px;
@@ -543,8 +448,6 @@ h2{
     display: flex;
     flex-direction: column;
     border: solid grey 0.6px;
-    /*justify-content: flex-start;/*
-    /*align-content: flex-start;*/
 }
 .formularioa{
     width: 100%;
@@ -559,7 +462,6 @@ h2{
     margin: 6px 2px;
     display: flex;
     flex-direction: column;
-    /*justify-content: flex-start;*/
 }
 .formulariodiv-b{
     width: 60%;

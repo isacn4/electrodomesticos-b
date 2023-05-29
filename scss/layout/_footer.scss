@@ -2,12 +2,9 @@
 .pie-contenedor{
     width: 100%;
     height: 400px;
-    /*text-align: center;*/
     padding: 2px;
     margin: 10px 0px;
     border: $borde-b;
-    /*background-image: linear-gradient(to right,lightgray,$bgcolor-v);
-    background-color: $bgcolor-v; */  
     display: flex;
     flex-direction: column; 
 }
@@ -34,15 +31,6 @@
     align-items: center;
     justify-content: center;
 }
-/*.suscribitediv-a{
-    width: 80%;
-    height: 80%;
-    border: $borde-b;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}*/
 
 .suscribite-div p{
     font-size: 1.2rem;
@@ -156,13 +144,3 @@
 .copyright-div p{
     font-size: 1.2rem;
 }
-
-/*
-.pie__icon--sm{
- width: 40px;
-}
-.pie__titulo--md{
-    font-size: $letratamaño-b;
-    font-weight: 200;
-}
-*/
