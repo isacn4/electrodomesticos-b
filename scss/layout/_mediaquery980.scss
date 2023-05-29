@@ -27,7 +27,6 @@ h2{
 .encabezado-contenedor{
     /*width: 100%;*/
     margin: 4px 0px;
-    /*justify-content: center;*/
     border: solid black 0.6px;
 }
 .encabezado-contenedor div p{
@@ -48,13 +47,11 @@ h2{
 }
 /*header foto cel*/
 .header-foto{
-    /*: 80%;*/
     margin: 4px 0px;
 }
 /*productos destacados*/
 .productosdestacados{
     width: 100%;
-    /*height: 10px;*/
     margin: 4px 0px;
     padding: 2px;
 }
@@ -224,22 +221,7 @@ h2{
 }
 
 /*
-.botonera{
-    width: 96%;
-    height: 120px;
-    margin: 6px 4px;
-    padding: 2px;
-    display: flex;
-    justify-content: space-around;
 
-    a{      
-        
-        img{
-        width: 200px;
-        margin: 2px 6px;
-}
-}
-}
 
 .botonera ul{
     /*display: inline-block;

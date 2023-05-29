@@ -42,7 +42,7 @@ h2 {
   background-color: white;
   padding: 2px;
   margin: 6px 0px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -58,7 +58,7 @@ h2 {
 }
 
 .encabezado-contenedor .headerdiv-b {
-  border: solid grey 0.6px;
+  /*border: solid grey 0.6px;*/
   display: flex;
   flex-direction: row;
   padding: 2px;
@@ -85,7 +85,7 @@ h2 {
   top: 0px;
   left: 0px;
   margin: 6px 0px;
-  border: solid 0.6px black;
+  /*border: solid grey 0.6px;*/
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -136,7 +136,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid grey 0.6px;
+  /*border: solid grey 0.6px;*/
 }
 
 .botonera .navdiv-d {
@@ -198,7 +198,7 @@ h2 {
 /*header*/
 .header-foto {
   width: 100%;
-  border: solid black 1px;
+  border: solid grey 1px;
   margin: 6px 0px;
 }
 
@@ -212,7 +212,7 @@ h2 {
   width: 100%;
   height: 100%;
   margin: 6px 0px;
-  border: solid black 1px;
+  /*border: solid grey 1px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -362,7 +362,7 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  border: solid grey 0.6px;
+  /*border: solid grey 0.6px;*/
 }
 
 .ofertasdiv-a {
@@ -416,7 +416,7 @@ h2 {
 .servicios-b {
   width: 100%;
   height: 80%;
-  border: solid grey 0.6px;
+  /*border: solid grey 0.6px;*/
   padding: 2px;
   display: flex;
   flex-direction: row;
@@ -744,7 +744,7 @@ h2 {
 
 .bgClaro {
   background-color: white;
-  border: solid black 1px;
+  border: solid grey 1px;
   margin: 10px 2px;
   padding: 10px;
 }
@@ -755,7 +755,7 @@ h2 {
   height: 400px;
   padding: 2px;
   margin: 10px 0px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   display: flex;
   flex-direction: column;
 }
@@ -765,7 +765,7 @@ h2 {
   height: 30%;
   background-color: white;
   margin: 2px 0px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   flex-direction: row;
@@ -775,7 +775,7 @@ h2 {
   width: 30%;
   height: 100%;
   margin: 2px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   flex-direction: row;
@@ -822,7 +822,7 @@ h2 {
   width: 30%;
   height: 100%;
   margin: 2px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   flex-direction: column;
@@ -832,7 +832,7 @@ h2 {
 
 .redsocialdiv-a {
   width: 60%;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   display: flex;
   text-align: center;
   align-items: center;
@@ -844,7 +844,7 @@ h2 {
 
 .redsocialdiv-b {
   width: 60%;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   display: flex;
   align-items: center;
 }
@@ -860,7 +860,7 @@ h2 {
   height: 40%;
   background-color: #EBEBEB;
   margin: 2px 0px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   flex-direction: row;
@@ -872,7 +872,7 @@ h2 {
   width: 20%;
   height: 90%;
   margin: 2px 6px;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   flex-direction: column;
@@ -887,7 +887,7 @@ h2 {
   width: 100%;
   height: 30%;
   background-color: white;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   align-items: center;
@@ -895,7 +895,7 @@ h2 {
 
 .copyright-div {
   width: 60%;
-  border: solid black 0.6px;
+  border: solid grey 0.6px;
   padding: 2px;
   display: flex;
   align-content: center;
@@ -1422,7 +1422,6 @@ h2 {
   .encabezado-contenedor {
     /*width: 100%;*/
     margin: 4px 0px;
-    /*justify-content: center;*/
     border: solid black 0.6px;
   }
   .encabezado-contenedor div p {
@@ -1441,13 +1440,11 @@ h2 {
   }
   /*header foto cel*/
   .header-foto {
-    /*: 80%;*/
     margin: 4px 0px;
   }
   /*productos destacados*/
   .productosdestacados {
     width: 100%;
-    /*height: 10px;*/
     margin: 4px 0px;
     padding: 2px;
   }
@@ -1608,22 +1605,7 @@ h2 {
     width: 80%;
   }
   /*
-  .botonera{
-      width: 96%;
-      height: 120px;
-      margin: 6px 4px;
-      padding: 2px;
-      display: flex;
-      justify-content: space-around;
 
-      a{      
-
-          img{
-          width: 200px;
-          margin: 2px 6px;
-  }
-  }
-  }
 
   .botonera ul{
       /*display: inline-block;
