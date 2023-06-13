@@ -10,15 +10,25 @@
 }
 .formulario-titulo{
     font-size: $letratamaño-b;
-    margin: 6px 2px;
+    margin: 6px 6px;
 }
 .formulario-titulo::first-letter{
-    font-size: $letratamaño-a;
-    color: palegreen;
+    /*font-size: $letratamaño-a;
+    color: palegreen;*/
 
 }
 .formulario-texto{
     margin: 6px 2px;
+}
+.formulariodiva-a{
+    margin: 6px 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.formulariodiva-a input{
+    margin: 2px;
+    height: 15px;
 }
 
 .bgClaro{

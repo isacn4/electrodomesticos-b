@@ -120,7 +120,7 @@
     height: 340px;
     background-color: white;
     padding: 2px;
-    margin: 2px 0px;
+    margin: 6px 0px;
     border: solid grey 0.6px;
     display: flex;
     flex-direction: column;
@@ -128,7 +128,8 @@
 .ofertas-a{
     width: 100%;
     height: 20%;
-    border: solid grey 0.6px;
+    margin: 4px 0px;
+    border-bottom: solid grey 0.6px;
     display: flex;
     align-items: center;   
 }
@@ -180,8 +181,9 @@
 .servicios-a{
     width: 100%;
     height: 20%;
-    border: solid grey 0.6px;
+    border-bottom: solid grey 0.6px;
     padding: 2px;
+    margin: 4px 0px;
     display: flex;
     align-items: center;
 }
@@ -209,13 +211,20 @@
     align-items: center;
     justify-content: center;
 }
+/*.texto-servicios{
+    color: $letra-color;
+}*/
 .bgcolor-a{
     background-color: #EBEBEB;
+    color: $letra-color;
+    font-size: 1.6rem;
 }
 .bgcolor-b{
     background-color: #7BB3FF;
+    color: white;
+    font-size: 1.6rem;
 }
-.serviciosdiv-a p{
+/*.serviciosdiv-a p{
     font-size: 1.6rem;
     color: white;
-}
+}*/

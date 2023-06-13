@@ -2,7 +2,7 @@
 .main-contenedor{
     width: 100%;
     padding: 10px;
-    border: solid black 1px;
+    border: $borde-b;
     margin: 10px 2px;
     background-color: white;
 }
@@ -31,14 +31,14 @@
     width: 90%;
     height: 90%;
     margin: 6px 0px;
-    border: solid black 1px;
+    border: $borde-b;
     padding: 10px;
 }
 .maindiv-b{
     width: 90%;
     height: 90%;
     margin: 10px;
-    border: solid black 1px;
+    /*border: solid grey 0.6px;*/
     padding: 10px;
     justify-content: space-around;
     display: flex;
