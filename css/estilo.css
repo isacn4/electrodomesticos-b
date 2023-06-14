@@ -773,6 +773,31 @@ h2 {
   padding: 10px;
 }
 
+.contacto {
+  width: 90%;
+  background-color: white;
+  /*border: solid grey 0.6px;*/
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contacto-a {
+  width: 40%;
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  /*border: solid grey 0.6px;*/
+}
+
+.mapa {
+  width: 40%;
+}
+
 /*pie*/
 .pie-contenedor {
   width: 100%;
